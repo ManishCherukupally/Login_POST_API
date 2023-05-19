@@ -6,7 +6,7 @@ function logininfo(){
         "username" : username,
         "password" : password
     };
-    //Dharani's (server) system IP address and PORT num
+    //Another system as server and it's IP address and PORT num
     fetch("http://192.168.0.153:5000/info",{
         method:"POST", 
         body:JSON.stringify(details),
